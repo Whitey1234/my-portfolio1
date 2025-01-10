@@ -107,12 +107,21 @@
     font-weight: 900;
     font-style: italic;
   }
-  
+.btn-singin {
+    width: 90px;
+height: 42px;
+    border: 1px solid rgb(0, 106, 80);
+    color:  rgb(0, 106, 80);
+    
+ border-radius: 8px; 
+background: transparent;
+}
 
 nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+
     margin: 10px 10px;
     
 }
@@ -122,7 +131,7 @@ nav {
  border-radius: 24px;
 
 background: rgb(198, 228, 214);
-margin:0px 180px
+margin:40px 150px
 
 }
 .banner{
@@ -135,8 +144,9 @@ margin:0px 180px
 .banner-image {
     padding-bottom: 40px;
     padding-top: 20px;
-    padding-left: 60px;
+    padding-left: 80px;
 }
+/* shared */
 .banner-p {
     color: rgba(14, 14, 14, 0.5);
     font-size: 14px;
@@ -148,8 +158,44 @@ margin:0px 180px
 height: 40px;
     border-radius: 8px;
     border: none;
+    
 
 background: rgb(0, 106, 80);
+}
+.card-container-p {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 12px;
+}
+.card-container {
+     margin:50px 150px; 
+
+}
+ .card{
+
+    /* background-color: rgba(84, 144, 245, 0.2); */
+    padding-top:40px ;
+    padding-left:30px ;
+    padding-right:30px ;
+    padding-bottom:30px ;
+   
+    }
+
+.btn-lm1 {
+margin-top: 10px;
+width: 100px;
+height: 38px;
+    color: white;
+    border-radius: 6px;
+    border: none;
+
+/* background: rgb(84, 144, 245); */
+
+}
+.card-saction{
+    display: flex;
+    margin-top: 30px;
+    gap: 12px;
+    
 }
 
 
