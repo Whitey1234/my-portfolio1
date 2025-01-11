@@ -222,6 +222,8 @@ background: palevioletred;
   color:black;
   
 }
+
+
 .card-saction1{
     display: flex;
     margin-top: 30px;
@@ -259,6 +261,11 @@ background: palevioletred;
   display: flex;
   justify-content: space-between;
 } 
+.donate-btn1 {
+
+text-align: center;
+}
+
 
 .card2{
   width: 170px;
@@ -336,19 +343,24 @@ position: absolute;
  text-transform: uppercase;
  text-decoration: underline;
 }
-.quto {
-background-image: url("../assets/quote-bg.png");
+
+.quto{
+background-image: url('../assets/quote-bg.png');
+background-repeat: no-repeat;
+
 box-sizing: border-box;
 border: 1px solid rgba(14, 14, 14, 0.15);
 border-radius: 16px;
 
-background: rgb(255, 255, 255);
+ /* background: rgb(255, 255, 255);   */
 
 }
 .p-padding{
 padding: 30px;
 }
-
+footer{
+  text-align: center;
+}
 
 
 
