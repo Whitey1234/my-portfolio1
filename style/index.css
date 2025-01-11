@@ -200,6 +200,19 @@ height: 38px;
 /* background: rgb(84, 144, 245); */
 
 }
+.btn-lm2{
+  background-color: rgb(0, 106, 80)
+}
+.btn-lm2:hover{
+background: palevioletred;
+ 
+ font-family: bold;
+
+}
+.btn-lm1:hover{
+  color:black;
+  
+}
 .card-saction1{
     display: flex;
     margin-top: 30px;
@@ -229,7 +242,7 @@ height: 38px;
 }
 .donate-saction{
 
-  margin:60px 150px;
+  margin:60px 190px;
 
   
 }
@@ -261,7 +274,7 @@ font-weight: bolder;
 
 }
 .amount-input{
-  width: 900Px;
+  width: 836Px;
 height: 48px;
 box-sizing: border-box;
 border-bottom: 2px solid rgba(14, 14, 14, 0.15);
@@ -272,6 +285,49 @@ border: none;
   text-align: center;
   font-style: italic;
 }
+.news-letter-section{
+   
+  text-align: center;
+  padding: 40px 100px;
+}
+.news-letter{
+
+
+margin:50px 150px; 
+border-radius: 24px;
+
+  background: rgb(198, 228, 214);
+}
+.subs-input{
+  position: relative;
+  width: 450px;
+height: 32px;
+border-radius: 8px 0px 0px 8px;
+
+background: rgb(255, 255, 255);
+
+}
+ .nl-input-div{
+  
+ display: flex;
+align-items: center;
+justify-content:flex-end;
+margin:28px 130px;
+
+
+ 
+} 
+.btn-sub{
+margin-bottom: 10px;
+position: absolute;
+
+}
+.subs-input::placeholder {
+ padding-left: 10px;
+ text-transform: uppercase;
+ text-decoration: underline;
+}
+
 
 
 
