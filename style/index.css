@@ -76,6 +76,7 @@
     font-family: "Fira Sans", serif;
     font-weight: 400;
     font-style: italic;
+    
   }
   
   .fira-sans-medium-italic {
@@ -209,6 +210,14 @@ background: palevioletred;
  font-family: bold;
 
 }
+.btn-lm3:hover{
+  background: yellowgreen;
+}
+#color{ background-color: rgb(198, 228, 214);
+}
+#color:hover{
+  background: yellowgreen;
+}
 .btn-lm1:hover{
   color:black;
   
@@ -326,6 +335,18 @@ position: absolute;
  padding-left: 10px;
  text-transform: uppercase;
  text-decoration: underline;
+}
+.quto {
+background-image: url("../assets/quote-bg.png");
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+
+background: rgb(255, 255, 255);
+
+}
+.p-padding{
+padding: 30px;
 }
 
 
