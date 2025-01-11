@@ -116,7 +116,9 @@ height: 42px;
  border-radius: 8px; 
 background: transparent;
 }
-
+body {
+    background-color:rgb(245, 245, 245);;
+}
 nav {
     display: flex;
     align-items: center;
@@ -151,6 +153,11 @@ margin:40px 150px
     color: rgba(14, 14, 14, 0.5);
     font-size: 14px;
 }
+.common-p {
+  color: rgba(14, 14, 14, 0.5);
+  font-size: 14px;
+}
+
 /* share */
 .btn{
     color: rgb(255, 255, 255);
@@ -162,9 +169,11 @@ height: 40px;
 
 background: rgb(0, 106, 80);
 }
+/* common p */
 .card-container-p {
     color: rgba(14, 14, 14, 0.7);
     font-size: 12px;
+    font-weight: 400px;
 }
 .card-container {
      margin:50px 150px; 
@@ -179,7 +188,7 @@ background: rgb(0, 106, 80);
     padding-bottom:30px ;
    
     }
-
+/* share */
 .btn-lm1 {
 margin-top: 10px;
 width: 100px;
@@ -197,6 +206,29 @@ height: 38px;
     gap: 12px;
     
 }
+.news {
+  
+    margin:50px 150px; 
+}
+.news-section{
+  display: flex;
+  border-radius: 24px;
+  align-items: center;
+  gap: 20px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  background: rgb(255, 255, 255);
+  padding: 25px 25px;
+  margin-bottom: 25px;
+}
+
+.img-sat{
+  border-radius: 18px;
+  width: 312px;
+  height: 260px;
+  margin-top: 20px;
+}
+
+
 
 
 
