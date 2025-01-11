@@ -328,7 +328,7 @@ background: rgb(255, 255, 255);
  display: flex;
 align-items: center;
 justify-content:flex-end;
-margin:28px 130px;
+margin:28px 120px;
 
 
  
@@ -361,6 +361,7 @@ padding: 30px;
 footer{
   text-align: center;
 }
+
 
 
 
